@@ -1,0 +1,134 @@
+.log-in-main-container{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+        padding: 10px 10px;
+    background: radial-gradient(circle at top left,
+            #bde4e0 0%,
+            #93ddd8 25%,
+            #bfe7e3 50%,
+            #eaf8f6 75%,
+            #ffffff 100%);
+
+
+}
+
+.row{
+    width: 100% !important;
+    height: 100%;
+}
+
+.log-rejestire-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 500px;
+        height: 500px;
+        border-radius: 1rem;
+    }
+
+}
+
+
+
+.tab-form-conatiner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+
+    .form-container {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5px 5px;
+
+        input {
+            background-color: #fff;
+            border-radius: 1rem;
+            display: block;
+            width: 100%;
+            height: 3rem;
+            padding: 0 2rem;
+            border: 1px solid #24a59b;
+            font-size: var(--fs-15);
+            color: #676767;
+
+            transition: 0.3s
+        }
+
+        input:focus,
+        textarea:focus,
+        select:focus {
+            outline: none;
+        }
+
+        div {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            font-size: 12px;
+            color: #676767;
+             height: 5rem;
+             justify-content: space-between;
+             .error-span{
+                color: red;
+             }
+        }
+        .log-in-btn{
+            margin: auto;
+            color: #676767;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            background-color: #24a59b;
+            border-radius: 1rem;
+        }
+
+    }
+}
+
+
+
+@media (max-width: 991.98px) {
+    .log-rejestire-img {
+        display: none;
+    }
+
+    .container-login {
+        position: relative;
+        min-height: 100vh;
+        background: url("../../share/imges/log-in-img.png") center center / cover no-repeat;
+    }
+
+    .container-login::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(135deg,
+                rgba(36, 165, 155, 0.75),
+                rgba(36, 165, 155, 0.45));
+        z-index: 1;
+    }
+
+    .container-login>* {
+        position: relative;
+        z-index: 2;
+    }
+
+
+}

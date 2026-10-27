@@ -1,0 +1,67 @@
+.navbar-brand {
+
+    width: 100%;
+    height: 50px;
+
+    background-color: #24a59b;
+      display: flex;
+        align-items: center;
+        justify-content: center;
+
+    div {
+        color: #fff;
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img {
+            width: 44px;
+            height: 44px;
+
+
+        }
+    }
+
+}
+
+.ticket-li-data{
+   list-style: circle !important;
+    color: #848587;
+    margin-top: 10px;
+    position: relative;
+   li{
+     padding: 2px 2px;
+     cursor: pointer;
+   }
+}
+
+
+.ticket-li-data::before {
+    content: "";
+    position: absolute;
+    right: 14px;          /* جای خط */
+    top: 0;
+    width: 2px;
+    height: 100%;         /* کل ارتفاع زیرمجموعه */
+    background-color: #24a59b;
+    border-radius: 3px;
+}
+
+
+.active-link a {
+  color: blue;
+  font-weight: bold; 
+}
+
+
+.active:hover{
+  background-color: #e7f1f1;
+  border-radius: 5px;
+   a,span,li{
+    color: #fff !important;
+   }
+  
+}
+

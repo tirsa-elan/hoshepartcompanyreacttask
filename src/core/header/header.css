@@ -1,0 +1,65 @@
+.navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.container-fluid {
+    .div {
+      
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        color: gray;
+        white-space: nowrap;
+
+        input {
+            width: 90%;
+            height: 80%;
+            border: none;
+            padding: 12px 12px;
+            border-radius: 30px;
+            border: solid 1px rgba(0, 0, 0, 0.16);
+            background-color: rgba(249, 247, 246, 0.94);
+            font-size: 10px !important;
+        }
+
+        input:focus,
+        textarea:focus,
+        select:focus {
+            outline: none;
+        }
+
+
+
+    }
+}
+
+
+
+@media (max-width: 991.98px) {
+    .lap-top-size{
+        display: none !important;
+    }
+    .mobile-size{
+        display: flex !important;
+    }
+}
+
+  .mobile-size{
+        display: none;
+    }
+
+
+.menuu{
+    background-color: #fff !important;
+    font-size: 18px !important;
+
+}
