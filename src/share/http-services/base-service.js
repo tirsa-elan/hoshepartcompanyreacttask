@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://ts.idicorp.ir/api',
+    baseURL: '/api',
     withCredentials: true
 });
 
