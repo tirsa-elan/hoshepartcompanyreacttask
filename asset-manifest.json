@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hoshepartcompanyreacttask/static/css/main.67bfe059.css",
-    "main.js": "/hoshepartcompanyreacttask/static/js/main.ab1abf57.js",
+    "main.js": "/hoshepartcompanyreacttask/static/js/main.4366f726.js",
     "static/js/453.018f0ed8.chunk.js": "/hoshepartcompanyreacttask/static/js/453.018f0ed8.chunk.js",
     "static/media/bootstrap-icons.woff?": "/hoshepartcompanyreacttask/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/bootstrap-icons.woff2?": "/hoshepartcompanyreacttask/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
@@ -9,11 +9,11 @@
     "static/media/logo.svg": "/hoshepartcompanyreacttask/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/hoshepartcompanyreacttask/index.html",
     "main.67bfe059.css.map": "/hoshepartcompanyreacttask/static/css/main.67bfe059.css.map",
-    "main.ab1abf57.js.map": "/hoshepartcompanyreacttask/static/js/main.ab1abf57.js.map",
+    "main.4366f726.js.map": "/hoshepartcompanyreacttask/static/js/main.4366f726.js.map",
     "453.018f0ed8.chunk.js.map": "/hoshepartcompanyreacttask/static/js/453.018f0ed8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67bfe059.css",
-    "static/js/main.ab1abf57.js"
+    "static/js/main.4366f726.js"
   ]
 }
